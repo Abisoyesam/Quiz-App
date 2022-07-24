@@ -1,0 +1,82 @@
+[
+  {
+    "question": 'Neither Ade nor the students _____ around.',
+    "option1": 'is',
+    'option2': 'was',
+    'option3': 'are',
+    'option4': 'am',
+    'answer': 3
+  },
+  {
+    'question': 'None of you ____ righteous.',
+    'option1': 'is',
+    'option2': 'was',
+    'option3': 'has ever been',
+    'option4': 'are',
+    'answer': 4
+  },
+  {
+    'question': 'None of them ____ righteous; said Ade.',
+    'option1': 'were',
+    'option2': 'is',
+    'option3': 'are',
+    'option4': 'have ever been',
+    'answer': 2
+  },
+  {
+    'question': 'Seventy percent of the problem ____ solved.',
+    'option1': 'have been',
+    'option2': 'has being',
+    'option3': 'has been',
+    'option4': 'have being',
+    'answer': 3
+  },
+  {
+    'question': 'John welcomed his guests ____ offered them drinks.',
+    'option1': 'and',
+    'option2': 'while',
+    'option3': 'until',
+    'option4': 'as',
+    'answer': 1
+  },
+  {
+    'question': 'Two year ago, I _____ English in England.',
+    'option1': 'studied',
+    'option2': 'was study',
+    'option3': 'was reading',
+    'option4': 'read',
+    'answer': 1
+  },
+  {
+    'question': 'You _____ eating when i arrived.',
+    'option1': 'was',
+    'option2': 'are',
+    'option3': 'were',
+    'option4': 'have been',
+    'answer': 3
+  },
+  {
+    'question': 'He did his best.',
+    'option1': "didn't she?",
+    'option2': 'does he?',
+    'option3': "isn't he",
+    'option4': "didn't he?",
+    'answer': 4
+  },
+  {
+    'question': 'You or I as a child of God, ____ to prosper',
+    'option1': 'is',
+    'option2': 'has',
+    'option3': 'are',
+    'option4': 'am',
+    'answer': 4
+  },
+  {
+    'question': 'He has successfully _____ his online form.',
+    'option1': 'submit',
+    'option2': 'submitted',
+    'option3': 'submited',
+    'option4': 'submet',
+    'answer': 2
+  },
+]

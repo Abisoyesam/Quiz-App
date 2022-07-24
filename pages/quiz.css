@@ -1,0 +1,132 @@
+.container .questions {
+  display: flex;
+  padding: 0 2rem;
+  text-align: justify;
+  width: 880px;
+  justify-content: center;
+  align-self: center;
+}
+
+.container .question-count {
+  margin-right: 20px;
+  position: relative;
+}
+
+.container h2#question {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  max-width: 1080px;
+}
+
+.choices {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  grid-gap: .4rem 5rem;
+  width: 100%
+}
+
+.choices > .options {
+  display: flex;
+  margin: .5rem 0rem;
+  background-color: #fff;
+  width: 360px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  border: 2px solid #efefef;
+}
+
+.choices > .options.selected {
+  display: flex;
+  margin: .5rem 0rem;
+  background-color: #efefef;
+  width: 360px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  border: 2px solid #efefef;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: .2s linear;
+}
+
+.choices > .options:hover {
+  cursor: pointer;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: .2s linear;
+}
+
+.options .option {
+  width: 100%;
+}
+
+.option-prefix {
+  margin-right: 15px;
+  text-transform: lowercase;
+  padding: 1rem;
+  background-color: #ececec;
+  border-radius:
+}
+
+#score {
+  font-size: 2rem;
+  /*display: none;*/
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btns button {
+  padding: .6rem 1.2rem;
+  margin: 0 5rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  letter-spacing: 0.12rem;
+  outline: none;
+}
+
+.btns button[disabled] {
+  pointer-events: none;
+}
+
+.btns button:hover {
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: .2s linear; 
+}
+
+.btns .submit {
+  padding: 1rem 1.6rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  width: 750px;
+  height: auto;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.pagination .page-num {
+  padding: .3rem 0;
+  margin: 5px 8px;
+  width: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+}
